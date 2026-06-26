@@ -16,12 +16,12 @@ With thousands of movies available on streaming platforms, users often find it d
 
 ## 💡 Solution
 
-Developed a Content-Based Movie Recommendation System that:
+Developed a **Content-Based Movie Recommendation System** that:
 
 * Analyzes movie metadata and textual information.
-* Measures similarities between movies.
+* Measures similarities between movies using Cosine Similarity.
 * Recommends movies similar to the selected movie.
-* Provides personalized recommendations efficiently.
+* Provides personalized movie suggestions efficiently.
 
 ---
 
@@ -51,16 +51,14 @@ Developed a Content-Based Movie Recommendation System that:
 
 **Dataset:** TMDB 5000 Movies Dataset (Kaggle)
 
-**Merged Dataset Size:** 4,809 Movies × 23 Features
+The merged dataset contains approximately **4,809 movies and 23 features**.
 
-The dataset contains:
+**Note:** Due to GitHub file size limitations, the dataset files are not included in this repository.
 
-* Movie Titles
-* Genres
-* Cast Information
-* Directors and Crew
-* Keywords
-* Overviews and Metadata
+To run this project, download the following files from Kaggle:
+
+* `tmdb_5000_movies.csv`
+* `tmdb_5000_credits.csv`
 
 ---
 
@@ -108,8 +106,8 @@ Personalized Movie Recommendations
 
 ## 📈 Performance Metrics
 
-* Average Precision@10: 0.806
-* Average Recall@10: 0.032
+* Average Precision@10: **0.806**
+* Average Recall@10: **0.032**
 
 ---
 
@@ -122,10 +120,6 @@ Movie-Recommendation-Engine/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-│
-├── dataset/
-│   ├── tmdb_5000_movies.csv
-│   └── tmdb_5000_credits.csv
 │
 ├── screenshots/
 │   ├── dataset_preview.png
@@ -145,7 +139,7 @@ Movie-Recommendation-Engine/
 * Integrate user ratings and feedback.
 * Deploy the system on the cloud.
 * Improve recommendations using deep learning techniques.
-* Add multilingual recommendations.
+* Add multilingual recommendation capabilities.
 
 ---
 
@@ -156,3 +150,4 @@ Movie-Recommendation-Engine/
 AI & Machine Learning Enthusiast | Python Developer | Data Science Learner
 
 Developed during the **AI & Machine Learning Internship at Synkoc IT Services Private Limited, Bengaluru**.
+
