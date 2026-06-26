@@ -1,158 +1,40 @@
-# 🎬 Movie Recommendation Engine
+Project Title:
 
-## 📌 Overview
+🎬 Movie Recommendation Engine
 
-The Movie Recommendation Engine is a Machine Learning project developed during my **6-Week AI & Machine Learning Internship at Synkoc IT Services Private Limited, Bengaluru**.
+Internship:
 
-The system recommends movies based on their similarities by analyzing movie features such as genres, cast, directors, and keywords. It uses **TF-IDF Vectorization** and **Cosine Similarity** to generate personalized movie recommendations.
+Developed during the 6-Week AI & Machine Learning Internship at Synkoc IT Services Private Limited, Bengaluru.
 
----
+Problem Statement:
 
-## ❓ Problem Statement
+With thousands of movies available on streaming platforms, users often find it difficult to discover movies that match their preferences.
 
-With thousands of movies available on streaming platforms, users often find it difficult and time-consuming to discover movies that match their interests. Traditional search methods do not always provide personalized suggestions.
+Solution:
 
----
+Built a machine learning-based recommendation engine that analyzes movie features and recommends similar movies.
 
-## 💡 Solution
-
-Developed a Content-Based Movie Recommendation System that:
-
-* Analyzes movie metadata and textual information.
-* Measures similarities between movies.
-* Recommends movies similar to the selected movie.
-* Provides personalized recommendations efficiently.
-
----
-
-## 🚀 Project Features
-
-✅ Movie Data Loading & Exploratory Data Analysis (EDA)
-
-✅ Content Feature Engineering
-
-✅ TF-IDF Vectorization
-
-✅ Cosine Similarity Matrix
-
-✅ Content-Based Recommendation System
-
-✅ Collaborative Filtering Concepts
-
-✅ Hybrid Recommendation System
-
-✅ Evaluation using Precision@10 and Recall@10
-
-✅ Production Recommendation API
-
----
-
-## 📊 Dataset
-
-**Dataset:** TMDB 5000 Movies Dataset (Kaggle)
-
-**Merged Dataset Size:** 4,809 Movies × 23 Features
-
-The dataset contains:
-
-* Movie Titles
-* Genres
-* Cast Information
-* Directors and Crew
-* Keywords
-* Overviews and Metadata
-
----
-
-## 🛠️ Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
-* TF-IDF Vectorizer
-* Cosine Similarity
-
----
-
-## 🏗️ Project Workflow
-
-TMDB Dataset
-↓
-Data Loading & EDA
-↓
-Data Cleaning & Preprocessing
-↓
-Content Feature Engineering
-↓
-TF-IDF Vectorization
-↓
-Cosine Similarity Matrix
-↓
-Content-Based Recommender
-↓
+Features:
+Content-Based Recommendation System
+TF-IDF Similarity Matrix
 Collaborative Filtering
-↓
 Hybrid Recommendation System
-↓
-Evaluation (Precision@10)
-↓
 Production Recommendation API
-↓
-Personalized Movie Recommendations
+Recommendation Explanations
 
----
+Technologies Used:
+Python
+Pandas
+NumPy
+Scikit-learn
+Jupyter Notebook
 
-## 📈 Performance Metrics
-
-* Average Precision@10: 0.806
-* Average Recall@10: 0.032
-
----
-
-## 📁 Project Structure
-
-```text
-Movie-Recommendation-Engine/
-│
-├── MovieRecommendationEngine.ipynb
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── dataset/
-│   ├── tmdb_5000_movies.csv
-│   └── tmdb_5000_credits.csv
-│
-├── screenshots/
-│   ├── dataset_preview.png
-│   ├── workflow.png
-│   ├── recommendation_output.png
-│   └── evaluation_metrics.png
-│
-└── docs/
-    └── Project_Report.pdf
-```
-
----
-
-## 🎯 Future Scope
-
-* Develop a web-based interface using Flask or Streamlit.
-* Integrate user ratings and feedback.
-* Deploy the system on the cloud.
-* Improve recommendations using deep learning techniques.
-* Add multilingual recommendations.
-
----
-
-## 👩‍💻 Author
-
-**Suyanshi Patel**
-
-AI & Machine Learning Enthusiast | Python Developer | Data Science Learner
-
-Developed during the **AI & Machine Learning Internship at Synkoc IT Services Private Limited, Bengaluru**.
+Project Phases:
+1. Movie Data Loading & EDA
+2. Content Feature Engineering
+3. TF-IDF Similarity Matrix
+4. Content-Based Recommender
+5. Collaborative Filtering
+6. Evaluation (Precision@10)
+7. Hybrid Recommendation System
+8. Production Recommendation API
